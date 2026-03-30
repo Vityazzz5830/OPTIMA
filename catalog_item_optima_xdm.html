@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+	<title>OPTIMA / СТРАНИЦА ТОВАРА</title>
+</head>
+<body>
+	<div class="wrapper ">
+		<header class="header">
+			<div class="full_container">
+				
+					<div class="header_content">
+						<div class="header_content_uppart">
+							<div class="main__container">
+								<div class="header_content_uppart_container">
+									<a class="header_content_uppart_logo" href="index.html">
+										<img src="img/header_content_logo.svg" alt="">
+									</a>
+									<div class="header_content_uppart_contacts">
+										<a class="header_content_uppart_phone" href="tel:+79257710660">
+											<img src="img/header_content_phone.svg" alt="">
+											<p>+7 (925)<strong> 771 06 60</strong></p>
+										</a>
+										<a class="header_content_uppart_mail" href="mailto:info@optima.ru">
+											<img src="img/header_content_mail.svg" alt="">
+											<p>info@optima.ru</p>
+										</a>
+										<div class="header_content_uppart_clock">
+											<img src="img/header_content_clock.svg" alt="">
+											<p>Пн-пт:<strong> с 9:00 до 18:00</strong></p>
+										</div>
+									</div>
+								
+									<div class="header_content_uppart_rightpart">
+										<a class="header_content_uppart_order order_btn">
+											Заказать звонок
+										</a>
+										<div class="header_content_uppart_rightpart_basket">
+											<a href="basket.html">
+												<img src="img/header_content_basket.svg" alt="">
+												<p>Корзина</p>
+												<div class="header_content_uppart_rightpart_basket_count">
+													1
+												</div>
+											</a>
+										</div>
+										<button class="header_content_burger" id="hamb"> 
+											<span></span>
+										    <span></span>
+										    <span></span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="header_content_downpart">
+							<div class="main__container">
+								<nav class="header_content_downpart_nav">
+									<ul class="header_content_downpart_nav_list">
+										<li class="header_content_downpart_nav_list_item">
+											<a class="upper" href="dizelnye_parogeneratory.html">
+												Парогенераторы
+											</a>
+											<div class="dropdown">
+												<div class="dropdown_container">
+													<div class="dropdown-column">
+											          	<a href="dizelnye_parogeneratory.html">
+											          		Дизельные парогенераторы
+											          	</a>
+											 			<a href="electricheskie_parogeneratory.html">
+											 				Электрические парогенераторы
+											          	</a>
+										       		</div>
+												</div>
+								    		</div>
+										</li>
+										<li class="header_content_downpart_nav_list_item">
+											<a class="upper" href="spheres.html">
+												Сферы применения
+											</a>
+										</li>
+										<li class="header_content_downpart_nav_list_item">
+											<a class="upper" href="about.html">
+												О компании
+											</a>
+										</li>
+										<li class="header_content_downpart_nav_list_item">
+											<a class="upper" href="service.html">
+												Сервис
+											</a>
+										</li>
+										<li class="header_content_downpart_nav_list_item">
+											<a class="upper" href="contacts.html">
+												Контакты
+											</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+		</header>
+		<div class="popup" id="popup">
+			<div class="batmenu" id="batmenu">
+				<div class="main__container main__container-popup">
+					<div class="close_popup" id="close_popup">
+			    	</div>  
+			    	<div class="burger_content">
+			    		<div class="burger_content_container">
+			    			<div class="burger_content_list">
+				    			<nav>
+					    			<ul class="burger_content_list_items">
+					    				<li class="burger_content_list_item">
+					    					<a href="dizelnye_parogeneratory.html">
+					    						Парогенераторы
+					    					</a>
+					    					<div class="burger_content_list_item_catalog">
+					    						<a href="dizelnye_parogeneratory.html">
+					    							Дизельные парогенераторы
+					    						</a>
+					    						<a href="electricheskie_parogeneratory.html">
+					    							Электрические парогенераторы
+					    						</a>
+					    					</div>
+					    				</li>
+					    				<li class="burger_content_list_item">
+					    					<a href="spheres.html">
+					    						Сферы применения
+					    					</a>
+					    				</li>
+					    				<li class="burger_content_list_item">
+					    					<a href="about.html">
+					    						О компании
+					    					</a>
+					    				</li>
+					    				<li class="burger_content_list_item">
+					    					<a href="service.html">
+					    						Сервис
+					    					</a>
+					    				</li>
+					    				<li class="burger_content_list_item">
+					    					<a href="contacts.html">
+					    						Контакты
+					    					</a>
+					    				</li>
+					    			</ul>
+				    			</nav>
+			    			</div>
+				    		<div class="burger_content_buttons">
+				    			<a class="header_content_uppart_phone" href="tel:+79257710660">
+									<img src="img/header_content_phone.svg" alt="">
+									<p>+7 (925)<strong> 771 06 60</strong></p>
+								</a>
+								<a class="header_content_uppart_mail" href="mailto:info@optima.ru">
+									<img src="img/header_content_mail.svg" alt="">
+									<p>info@optima.ru</p>
+								</a>
+								<a class="header_content_uppart_order order_btn">
+									Заказать звонок
+								</a>
+				    		</div>
+			    		</div>
+			    	</div>    
+				</div>
+			</div>
+		</div>
+
+		<div class="breadcrumbs">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="breadcrumbs_links">
+						<a href="index.html">
+							Главная
+						</a>
+						<p>/</p>
+						<a href="dizelnye_parogeneratory.html">
+							Дизельные парогенераторы
+						</a>
+						<p>/</p>
+						<a href="catalog_item_optima_xdm.html">
+							OPTIMA XDM
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="firstsec_catalogitempage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="firstsec_catalogitempage_content">
+						<div class="videosec_mainpage_content_header">
+							<h2>Дизельный парогенератор <b>OPTIMA XDM</b></h2>
+							<div class="firstsec_catalogitempage_content_header_line">
+								
+							</div>
+						</div>
+						<div class="firstsec_catalogitempage_content_title">
+							<div class="firstsec_catalogitempage_content_title_leftpart">
+								<div class="casessec_mainpage_content_big_slider_item_gallery">
+										<div class="gallery" data-gallery>
+										  	<div class="gallery-main">
+										    	<img class="gallery-main-image" src="img/gallery_xdm_1.png" alt="">
+										  	</div>
+
+										  	<div class="gallery-thumbs">
+											    <img src="img/gallery_xdm_1.png" class="thumb active">
+											    <img src="img/gallery_xdm_2.png" class="thumb">
+											    <img src="img/gallery_xdm_3.png" class="thumb">
+											    <img src="img/gallery_xdm_4.png" class="thumb">
+										  	</div>
+										</div>
+									</div>
+							</div>
+							<div class="firstsec_catalogitempage_content_title_rightpart">
+								<div class="tabs">
+									<div class="tabs__nav">
+									    <button class="tabs__btn" data-tab="tab1">Сервис</button>
+									    <button class="tabs__btn active" data-tab="tab2">Технические характеристики</button>
+									    <button class="tabs__btn" data-tab="tab3">Расход пара</button>
+									</div>
+
+									
+									<div class="tabs__content_container">
+										<div class="tabs__content" id="tab1">
+											<div class="tabs__content_service">
+												<ul>
+													<li>
+														Доставка по РФ и СНГ
+													</li>
+													<li>
+														Обучение персонала
+													</li>
+													<li>
+														Гарантия 12 месяцев
+													</li>
+													<li>
+														Тех. документация
+													</li>
+													<li>
+														Тех. поддержка
+													</li>
+													<li>
+														Сертификаты
+													</li>
+												</ul>
+											</div>
+								    		
+								  		</div>
+									  	<div class="tabs__content active" id="tab2">
+									  		<h3>OPTIMA XDM</h3>
+										    <div class="tabs__content_info">
+										    	<div class="tabs__content_info_item">
+										    		<b>Мощность:</b>
+										    		<p>0,28 кВт</p>
+										    	</div>
+										    	<div class="tabs__content_info_item">
+										    		<b>Расход пара:</b>
+										    		<p>8…100 кг/час</p>
+										    	</div>
+										    	<div class="tabs__content_info_item">
+										    		<b>Время нагрева:</b>
+										    		<p>3 мин.</p>
+										    	</div>
+										    	<div class="tabs__content_info_item">
+										    		<b>Вес:</b>
+										    		<p>52 кг</p>
+										    	</div>
+										    	<div class="tabs__content_info_item">
+										    		<b>Размеры (Вес):</b>
+										    		<p>770 х 480 х 740 мм (52 кг)</p>
+										    	</div>
+										    	<div class="tabs__content_info_item">
+										    		<b>Сертификаты:</b>
+										    		<p>CE, c-CSA-us, SASO</p>
+										    	</div>
+										    </div>
+										</div>
+									  	<div class="tabs__content" id="tab3">
+									  		<div class="tabs__content_rashod">
+									    		<p><b>Расход пара: </b> 8…100 кг/час</p>
+									    		<p>Непрерывный максимальный расход пара возможен в течении непродолжительного времени при условии применения парового шланга без пистолета.</p>
+									    		<p>Минимальный расход пара возможен в постоянном режиме работы.</p>
+									    	</div>
+									  	</div>
+									  	<div class="tabs__content_container_buttons">
+									  		<button>
+									  			Добавить в корзину
+									  		</button>
+									  		<a class="order_btn">
+									  			Получить консультацию инженера
+									  		</a>
+									  	</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="firstsec_catalogitempage_content_table">
+							<table class="spec-table">
+							    <tbody>
+							      <tr>
+							        <th>Характеристика</th>
+							        <td>Значение</td>
+							      </tr>
+							      <tr>
+							        <th>Расход пара</th>
+							        <td>8…100 кг/час</td>
+							      </tr>
+							      <tr>
+							        <th>Электрическое напряжение</th>
+							        <td>230В х 1ф</td>
+							      </tr>
+							      <tr>
+							        <th>Электрическая мощность</th>
+							        <td>0,28 кВт</td>
+							      </tr>
+							      <tr>
+							        <th>Рабочее давление в баке</th>
+							        <td>8,5 бар</td>
+							      </tr>
+							      <tr>
+							        <th>Макс. давление в баке</th>
+							        <td>9,5 бар</td>
+							      </tr>
+							      <tr>
+							        <th>Макс. температура в баке</th>
+							        <td>178 °C</td>
+							      </tr>
+							      <tr>
+							        <th>Время нагрева до работы</th>
+							        <td>3 мин.</td>
+							      </tr>
+							      <tr>
+							        <th>Объём водяного бака</th>
+							        <td>11 л</td>
+							      </tr>
+							      <tr>
+							        <th>Объём топливного бака</th>
+							        <td>11 л</td>
+							      </tr>
+							      <tr>
+							        <th>Расход дизельного топлива</th>
+							        <td>0,2…0,7 л/час</td>
+							      </tr>
+							      <tr>
+							        <th>Вес нетто</th>
+							        <td>52 кг</td>
+							      </tr>
+							      <tr>
+							        <th>Габаритные размеры</th>
+							        <td>770 х 480 х 740 мм</td>
+							      </tr>
+							      <tr>
+							        <th>Комплектация</th>
+							        <td>Шланг, пистолет</td>
+							      </tr>
+							    </tbody>
+  							</table>
+						</div>
+						<div class="firstsec_catalogitempage_content_characters">
+							<div class="firstsec_catalogitempage_content_characters_item">
+								<h3>Технические характеристики <br> основаны на следующих условиях:</h3>
+								<ul>
+									<li>
+										температура питательной воды 20°С;
+									</li>
+									<li>
+										теплопроизводительность дизельного топлива 10300 ккал/кг;
+									</li>
+									<li>
+										температура окружающей среды 18°С.
+									</li>
+								</ul>
+								<p>Непрерывный максимальный расход пара возможен в течении непродолжительного временипри условии применения парового шланга без пистолета.  <br>Минимальный расход пара возможен в постоянном режиме работы.</p>
+								<strong>С сертификатом соответствия на товар вы можете ознакомиться по <a href="img/sertificate.pdf"> ссылке</a></strong>
+							</div>
+							<div class="firstsec_catalogitempage_content_characters_item">
+								<h3>Расход пара зависит от следующих условий:</h3>
+								<ul>
+									<li>
+										температура окружающей среды;
+									</li>
+									<li>
+										настройка параметров пара;
+									</li>
+									<li>
+										тип паровой насадки;
+									</li>
+									<li>
+										тип и длина парового шланга.
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="spheresec_mainpage spheresec_catalogitempage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="spheresec_mainpage_content">
+						<div class="spheresec_mainpage_content_header">
+							<h2>Области применения</h2>
+							<div class="spheresec_mainpage_content_header_line">
+								
+							</div>
+							<div class="spheresec_mainpage_content_header_container">
+								<p>Где используют парогенераторы <b>OPTIMA</b></p>
+								<div class="spheresec_mainpage_content_header_container_buttons">
+									<button class="spheresec_mainpage_content_slider_prev">
+										<svg width="122" height="16" viewBox="0 0 122 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M115.5 0.581055L120.5 7.58105L115.5 14.5811" stroke="white" stroke-width="2"/>
+											<path d="M0 7.58105H112" stroke="white" stroke-width="2"/>
+										</svg>
+									</button>
+									<button class="spheresec_mainpage_content_slider_next">
+										<svg width="122" height="16" viewBox="0 0 122 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M115.5 0.581055L120.5 7.58105L115.5 14.5811" stroke="white" stroke-width="2"/>
+											<path d="M0 7.58105H112" stroke="white" stroke-width="2"/>
+										</svg>
+									</button>
+								</div>
+								
+							</div>
+						</div>
+						<div class="spheresec_mainpage_content_slider">
+							<div class="spheresec_mainpage_content_slider_item">
+								<img src="img/spheresec_mainpage_content_slider_item_1.png" alt="">
+								<h3>Пищевая промышленность:</h3>
+								<p>очистка производственных линий, тары, холодильников, вентиляционных систем.</p>
+							</div>
+							<div class="spheresec_mainpage_content_slider_item">
+								<img src="img/spheresec_mainpage_content_slider_item_4.png" alt="">
+								<h3>Медицина:</h3>
+								<p>дезинфекция помещений, стерилизация инструментов, обработка палат и операционных.</p>
+							</div>
+							<div class="spheresec_mainpage_content_slider_item">
+								<img src="img/spheresec_mainpage_content_slider_item_2.png" alt="">
+								<h3>Автосервисы и детейлинг:</h3>
+								<p>очистка кузовов, салонов, двигателей, колёсных дисков, кондиционеров.</p>
+							</div>
+							<div class="spheresec_mainpage_content_slider_item">
+								<img src="img/spheresec_mainpage_content_slider_item_6.png" alt="">
+								<h3>Коммунальное хозяйство:</h3>
+								<p>уборка общественных пространств, дезинфекция транспорта, очистка фасадов.</p>
+							</div>
+							<div class="spheresec_mainpage_content_slider_item">
+								<img src="img/spheresec_mainpage_content_slider_item_3.png" alt="">
+								<h3>Производство:</h3>
+								<p>очистка производственных линий, тары, холодильников, вентиляционных систем.</p>
+							</div>
+							<div class="spheresec_mainpage_content_slider_item">
+								<img src="img/spheresec_mainpage_content_slider_item_7.png" alt="">
+								<h3>Гостиничный и ресторанный бизнес:</h3>
+								<p>санитарная обработка номеров, кухонь, санузлов, мягкой мебели.</p>
+							</div>
+							<div class="spheresec_mainpage_content_slider_item">
+								<img src="img/spheresec_mainpage_content_slider_item_8.png" alt="">
+								<h3>Сельское хозяйство:</h3>
+								<p>дезинфекция ферм, теплиц, инвентаря, кормушек.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="videosec_mainpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="videosec_mainpage_content">
+						<div class="videosec_mainpage_content_header">
+							<h2>Как работают парогенераторы <b>OPTIMA</b></h2>
+							<div class="choicesec_mainpage_content_header_line">
+								
+							</div>
+						</div>
+						<div class="videosec_mainpage_content_main">
+							<div class="videosec_mainpage_content_main_video">
+								<video class="video-block__video" id="mainVideo" preload="metadata">
+								    <source src="img/optima_crop_1.mp4" type="video/mp4">
+								</video>
+								<button class="videosec_mainpage_content_main_video_play playBtn" id="playBtn">
+									<svg width="24" height="27" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M23.25 13.4233L-1.26428e-06 26.8467L-9.07713e-08 -5.53757e-05L23.25 13.4233Z" fill="#CB3D35"/>
+									</svg>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="formsec_mainpage formsec_catalogitempage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="formsec_mainpage_content">
+						<div class="formsec_mainpage_content_header">
+							<h2>Остались вопросы?</h2>
+							<div class="formsec_mainpage_content_header_line">
+								
+							</div>
+							<p>Напишите нам, и инженер Optima свяжется с вами в ближайшее время</p>
+						</div>
+						<div class="formsec_mainpage_content_form_container">
+							<form class="formsec_mainpage_content_form" action="#">
+								<div class="formsec_mainpage_content_form_item">
+									<p class="upper">Имя</p>
+									<input type="text" name="" id="" placeholder="Как к вам обращаться?" required="required">
+								</div>
+								<div class="formsec_mainpage_content_form_item">
+									<p class="upper">Телефон</p>
+									<input type="tel" name="" id="" placeholder="+7 (_) _-- -- ---" data-tel-input required="required">
+								</div>
+								<label class="custom_checkbox">
+								  	<input type="checkbox" required>
+								  	<span class="checkmark"></span>
+								  		<div class="checkbox_title">
+											<p>Нажимая на кнопку, вы соглашаетесь с </p>
+											<a href="policy.html"> Политикой обработки персональных данных</a>
+										</div>
+								</label>
+								<button type="submit" class="formsec_mainpage_content_form_btn upper">
+									Получить консультацию
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="full_container">
+				<div class="main__container">
+					<div class="footer_content">
+						<div class="footer_content_header">
+							<a href="index.html">
+								<img src="img/footer_content_logo.svg" alt="">
+							</a>
+							<p><b>Компания OPTIMA </b>является производителем «экологичной» продукции и гордится качеством товаров, которые помогают нашим клиентам не только добиваться успеха, но и сохранять природные ресурсы</p>
+						</div>
+						<div class="footer_content_title">
+							<div class="footer_content_title_container">
+								<div class="footer_content_title_item">
+									<h3 class="upper">Меню</h3>
+									<ul>
+										<li>
+											<a href="index.html">
+												Главная
+											</a>
+										</li>
+										<li>
+											<a href="dizelnye_parogeneratory.html">
+												Парогенераторы
+											</a>
+										</li>
+										<li>
+											<a href="spheres.html">
+												Сферы применения
+											</a>
+										</li>
+										<li>
+											<a href="about.html">
+												О компании
+											</a>
+										</li>
+										<li>
+											<a href="service.html">
+												Сервис
+											</a>
+										</li>
+										<li>
+											<a href="contacts.html">
+												Контакты
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="footer_content_title_item">
+									<h3 class="upper">ТЕХНОЛОГИЯ</h3>
+									<ul>
+										<li>
+											<a href="#">
+												Перегретый пар
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Интеллектуальная <br>Система управления
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Корпус парового котла
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="footer_content_title_item">
+									<h3 class="upper">Приложения</h3>
+									<ul>
+										<li>
+											<a href="spheres.html">
+												Автомобильная промышленность
+											</a>
+										</li>
+										<li>
+											<a href="spheres.html">
+												Пищевая промышленность
+											</a>
+										</li>
+										<li>
+											<a href="spheres.html">
+												Винодельни и пивоварни
+											</a>
+										</li>
+										<li>
+											<a href="spheres.html">
+												Коммерческая Уборка
+											</a>
+										</li>
+										<li>
+											<a href="spheres.html">
+												Уничтожение сорняков
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							
+							<div class="footer_content_title_contacts">
+								<h3 class="upper">Контакты</h3>
+								<a href="tel:+79160367799">
+									<img src="img/header_content_phone.svg" alt="">
+									<p>+7 (916) <strong>036 77 99</strong></p>
+								</a>
+								<a href="mailto:info@optima.ru">
+									<img src="img/header_content_mail.svg" alt="">
+									<p>info@optima.ru</p>
+								</a>
+								<div class="footer_content_title_contacts_clock">
+									<img src="img/header_content_clock.svg" alt="">
+									<p>Пн-пт: <b>с 9:00 до 18:00</b></p>
+								</div>
+								<div class="footer_content_title_contacts_messengers">
+									<a href="#" class="footer_content_title_contacts_messengers_item">
+										<img src="img/footer_tg.svg" alt="">
+									</a>
+									<a href="#" class="footer_content_title_contacts_messengers_item">
+										<img src="img/footer_ins.svg" alt="">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="footer_content_policy">
+							<div class="footer_content_policy_leftpart">
+								<a href="policy.html">
+									Политика конфиденциальности 
+								</a>
+								<a class="footer_content_policy_leftpart_kima" href="https://kimapro.ru/">
+									<img src="img/kima.svg" alt="">
+									<p>Разработка и поддержка <br>KIMAPRO</p>
+								</a>
+							</div>
+							
+							<p>© 2026 Optima. Все права защищены</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div class="modal-overlay" id="modalOverlay">
+			<div class="modal_order" id="modal_order">
+				<button class="close_btn_modal" id="closeBtn_modal" aria-label="Закрыть">
+					<svg width="40" height="39" viewBox="0 0 40 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<line x1="1.06058" y1="0.353554" x2="39.0606" y2="38.3536" stroke="#252525"/>
+						<line y1="-0.5" x2="53.7401" y2="-0.5" transform="matrix(-0.707107 0.707107 0.707107 0.707107 38.707 0.707108)" stroke="#252525"/>
+					</svg>
+				</button>
+				<div class="modal_content">
+					<div class="modal_content_container">
+						<div class="modal_content_container_header">
+							<h2>Заказать звонок</h2>
+							<div class="modal_content_container_header_line">
+								
+							</div>
+							<p>Менеджер перезвонит в течение 15 минут в рабочее время</p>
+						</div>
+						<form action="#" class="modal_order_form">
+							<div class="modal_order_form_item">
+								<p class="upper">Телефон</p>
+								<input type="tel" name="" id="" placeholder="+7 (_) _-- -- ---" data-tel-input required="required">
+							</div>
+							<label class="custom_checkbox custom_checkbox_modal">
+								<input type="checkbox" required>
+								<span class="checkmark"></span>
+								<div class="checkbox_title">
+									<p>Нажимая на кнопку, вы соглашаетесь с </p>
+									<a href="policy.html"> Политикой обработки персональных данных</a>
+								</div>
+							</label>
+							<button type="submit" class="modal_order_form_btn">
+								<p>Отправить заявку</p>
+								<img src="img/firstsec_mainpage_arrow.svg" alt="">
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<script src="js/jquery-3.6.2.min.js"></script>
+	 	<script src="js/slick.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/main.js"></script> 
+	</div>
+</body>
+</html>
+

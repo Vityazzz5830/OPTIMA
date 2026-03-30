@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+	<title>OPTIMA / КОРЗИНА</title>
+</head>
+<body>
+	<div class="wrapper ">
+		<header class="header">
+			<div class="full_container">
+				
+					<div class="header_content">
+						<div class="header_content_uppart">
+							<div class="main__container">
+								<div class="header_content_uppart_container">
+									<a class="header_content_uppart_logo" href="index.html">
+										<img src="img/header_content_logo.svg" alt="">
+									</a>
+									<div class="header_content_uppart_contacts">
+										<a class="header_content_uppart_phone" href="tel:+79257710660">
+											<img src="img/header_content_phone.svg" alt="">
+											<p>+7 (925)<strong> 771 06 60</strong></p>
+										</a>
+										<a class="header_content_uppart_mail" href="mailto:info@optima.ru">
+											<img src="img/header_content_mail.svg" alt="">
+											<p>info@optima.ru</p>
+										</a>
+										<div class="header_content_uppart_clock">
+											<img src="img/header_content_clock.svg" alt="">
+											<p>Пн-пт:<strong> с 9:00 до 18:00</strong></p>
+										</div>
+									</div>
+								
+									<div class="header_content_uppart_rightpart">
+										<a class="header_content_uppart_order order_btn">
+											Заказать звонок
+										</a>
+										<div class="header_content_uppart_rightpart_basket">
+											<a href="basket.html">
+												<img src="img/header_content_basket.svg" alt="">
+												<p>Корзина</p>
+												<div class="header_content_uppart_rightpart_basket_count">
+													1
+												</div>
+											</a>
+										</div>
+										<button class="header_content_burger" id="hamb"> 
+											<span></span>
+										    <span></span>
+										    <span></span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="header_content_downpart">
+							<div class="main__container">
+								<nav class="header_content_downpart_nav">
+									<ul class="header_content_downpart_nav_list">
+										<li class="header_content_downpart_nav_list_item">
+											<a class="upper" href="dizelnye_parogeneratory.html">
+												Парогенераторы
+											</a>
+											<div class="dropdown">
+												<div class="dropdown_container">
+													<div class="dropdown-column">
+											          	<a href="dizelnye_parogeneratory.html">
+											          		Дизельные парогенераторы
+											          	</a>
+											 			<a href="electricheskie_parogeneratory.html">
+											 				Электрические парогенераторы
+											          	</a>
+										       		</div>
+												</div>
+								    		</div>
+										</li>
+										<li class="header_content_downpart_nav_list_item">
+											<a class="upper" href="spheres.html">
+												Сферы применения
+											</a>
+										</li>
+										<li class="header_content_downpart_nav_list_item">
+											<a class="upper" href="about.html">
+												О компании
+											</a>
+										</li>
+										<li class="header_content_downpart_nav_list_item">
+											<a class="upper" href="service.html">
+												Сервис
+											</a>
+										</li>
+										<li class="header_content_downpart_nav_list_item">
+											<a class="upper" href="contacts.html">
+												Контакты
+											</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+		</header>
+
+		<div class="popup" id="popup">
+			<div class="batmenu" id="batmenu">
+				<div class="main__container main__container-popup">
+					<div class="close_popup" id="close_popup">
+			    	</div>  
+			    	<div class="burger_content">
+			    		<div class="burger_content_container">
+			    			<div class="burger_content_list">
+				    			<nav>
+					    			<ul class="burger_content_list_items">
+					    				<li class="burger_content_list_item">
+					    					<a href="dizelnye_parogeneratory.html">
+					    						Парогенераторы
+					    					</a>
+					    					<div class="burger_content_list_item_catalog">
+					    						<a href="dizelnye_parogeneratory.html">
+					    							Дизельные парогенераторы
+					    						</a>
+					    						<a href="electricheskie_parogeneratory.html">
+					    							Электрические парогенераторы
+					    						</a>
+					    					</div>
+					    				</li>
+					    				<li class="burger_content_list_item">
+					    					<a href="spheres.html">
+					    						Сферы применения
+					    					</a>
+					    				</li>
+					    				<li class="burger_content_list_item">
+					    					<a href="about.html">
+					    						О компании
+					    					</a>
+					    				</li>
+					    				<li class="burger_content_list_item">
+					    					<a href="service.html">
+					    						Сервис
+					    					</a>
+					    				</li>
+					    				<li class="burger_content_list_item">
+					    					<a href="contacts.html">
+					    						Контакты
+					    					</a>
+					    				</li>
+					    			</ul>
+				    			</nav>
+			    			</div>
+				    		<div class="burger_content_buttons">
+				    			<a class="header_content_uppart_phone" href="tel:+79257710660">
+									<img src="img/header_content_phone.svg" alt="">
+									<p>+7 (925)<strong> 771 06 60</strong></p>
+								</a>
+								<a class="header_content_uppart_mail" href="mailto:info@optima.ru">
+									<img src="img/header_content_mail.svg" alt="">
+									<p>info@optima.ru</p>
+								</a>
+								<a class="header_content_uppart_order order_btn">
+									Заказать звонок
+								</a>
+				    		</div>
+			    		</div>
+			    	</div>    
+				</div>
+			</div>
+		</div>
+
+		<div class="breadcrumbs">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="breadcrumbs_links">
+						<a href="index.html">
+							Главная
+						</a>
+						<p>/</p>
+						<a href="electricheskie_parogeneratory.html">
+							Электрические парогенераторы
+						</a>
+						<p>/</p>
+						<a href="basket.html">
+							Корзина
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="firstsec_basketpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="firstsec_basketpage_content">
+						<div class="firstsec_basketpage_content_header">
+							<h1>Корзина / Ваша заявка</h1>
+							<div class="firstsec_basketpage_content_header_line">
+									
+							</div>
+							<p><b>Проверьте выбранные позиции, при необходимости измените количество и отправьте заявку менеджеру. </b><br>Мы подготовим счёт с актуальными ценами и условиями поставки</p>
+						</div>
+						<div class="firstsec_basketpage_content_table">
+							<div class="firstsec_basketpage_content_table_header">
+								<h3>Фото</h3>
+								<h3>Название модели</h3>
+								<h3>Характеристики</h3>
+								<h3>Количество</h3>
+								<h3>Удалить</h3>
+							</div>
+							<div class="firstsec_basketpage_content_table_list">
+								<div class="firstsec_basketpage_content_table_empty">
+									<h3>Корзина пуста</h3>
+									<p>Вы еще не добавили ни одного товара. </p>
+									<p>Перейдите в каталог, чтобы выбрать оборудование</p>
+									<a class="firstsec_basketpage_content_table_empty_link" href="dizelnye_parogeneratory.html">
+										<p>Перейти в полный каталог</p>
+										<img src="img/firstsec_mainpage_arrow.svg" alt="">
+									</a>
+								</div>
+								<div class="firstsec_basketpage_content_table_item">
+									<img src="img/firstsec_basketpage_content_table_item_1.svg" alt="">
+									<a class="upper" href="catalog_item_optima_xe.html">
+										OPTIMA XE
+									</a>
+									<p>Электрический двигатель / 15…100 кг/час</p>
+									<div class="firstsec_basketpage_content_table_item_counter">
+										<div class="basketsec_input">
+											<button class="basketsec__item-minus" type="button">
+												-
+											</button>
+											<div class="basketsec_input_count">
+												<input class="basketsec__item-input" id="imp_num" type="number" value="1" min="1" onkeyup="this.value = this.value.replace(/[^\d]/g,'');">
+												<p>шт</p>
+											</div>
+											
+											<button class="basketsec__item-plus" type="button">
+												+
+											</button>
+										</div>
+									</div>
+									<button class="firstsec_basketpage_content_table_item_delete">
+										<img src="img/delete.svg" alt="">
+									</button>
+								</div>
+								<div class="firstsec_basketpage_content_table_item">
+									<img src="img/firstsec_basketpage_content_table_item_2.svg" alt="">
+									<a class="upper" href="catalog_item_optima_xem.html">
+										OPTIMA XEm
+									</a>
+									<p>Электрический двигатель / 15…100 кг/час</p>
+									<div class="firstsec_basketpage_content_table_item_counter">
+										<div class="basketsec_input">
+											<button class="basketsec__item-minus" type="button">
+												-
+											</button>
+											<div class="basketsec_input_count">
+												<input class="basketsec__item-input" id="imp_num" type="number" value="1" min="1" onkeyup="this.value = this.value.replace(/[^\d]/g,'');">
+												<p>шт</p>
+											</div>
+											
+											<button class="basketsec__item-plus" type="button">
+												+
+											</button>
+										</div>
+									</div>
+									<button class="firstsec_basketpage_content_table_item_delete">
+										<img src="img/delete.svg" alt="">
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+		<section class="formsec_mainpage formsec_basketpage">
+			<div class="full_container">
+				<div class="main__container">
+					<div class="formsec_mainpage_content">
+						<div class="formsec_mainpage_content_header">
+							<h2>Оформите заявку</h2>
+							<div class="formsec_mainpage_content_header_line">
+								
+							</div>
+							<p>Менеджер свяжется с вами для подтверждения заказа и выставления счета</p>
+						</div>
+						<div class="formsec_mainpage_content_form_container">
+							<form class="formsec_mainpage_content_form formsec_basketpage_content_form" action="#">
+								<div class="formsec_mainpage_content_form_item">
+									<p class="upper">Имя</p>
+									<input type="text" name="" id="" placeholder="Как к вам обращаться?" required="required">
+								</div>
+								<div class="formsec_mainpage_content_form_item">
+									<p class="upper">Телефон</p>
+									<input type="tel" name="" id="" placeholder="+7 (_) _-- -- ---" data-tel-input required="required">
+								</div>
+								<div class="formsec_mainpage_content_form_item">
+									<p class="upper">Email</p>
+									<input type="email" name="" id="" placeholder="Для отправки КП" required="required">
+								</div>
+								<div class="formsec_mainpage_content_form_item">
+									<p class="upper">Адрес объекта</p>
+									<input type="text" name="" id="" required="required">
+								</div>
+								<div class="formsec_mainpage_content_form_item">
+									<p class="upper">Комментарий к заказу</p>
+									<textarea name="" id="" placeholder="Укажите дополнительные пожелания, сроки поставки, адрес доставки"></textarea>
+								</div>
+								<label class="custom_checkbox">
+								  	<input type="checkbox" required>
+								  	<span class="checkmark"></span>
+								  		<div class="checkbox_title">
+											<p>Нажимая на кнопку, вы соглашаетесь с </p>
+											<a href="policy.html"> Политикой обработки персональных данных</a>
+										</div>
+								</label>
+								<button type="submit" class="formsec_mainpage_content_form_btn upper">
+									Отправить заявку менеджеру
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+		<footer>
+			<div class="full_container">
+				<div class="main__container">
+					<div class="footer_content">
+						<div class="footer_content_header">
+							<a href="index.html">
+								<img src="img/footer_content_logo.svg" alt="">
+							</a>
+							<p><b>Компания OPTIMA </b>является производителем «экологичной» продукции и гордится качеством товаров, которые помогают нашим клиентам не только добиваться успеха, но и сохранять природные ресурсы</p>
+						</div>
+						<div class="footer_content_title">
+							<div class="footer_content_title_container">
+								<div class="footer_content_title_item">
+									<h3 class="upper">Меню</h3>
+									<ul>
+										<li>
+											<a href="index.html">
+												Главная
+											</a>
+										</li>
+										<li>
+											<a href="dizelnye_parogeneratory.html">
+												Парогенераторы
+											</a>
+										</li>
+										<li>
+											<a href="spheres.html">
+												Сферы применения
+											</a>
+										</li>
+										<li>
+											<a href="about.html">
+												О компании
+											</a>
+										</li>
+										<li>
+											<a href="service.html">
+												Сервис
+											</a>
+										</li>
+										<li>
+											<a href="contacts.html">
+												Контакты
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="footer_content_title_item">
+									<h3 class="upper">ТЕХНОЛОГИЯ</h3>
+									<ul>
+										<li>
+											<a href="#">
+												Перегретый пар
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Интеллектуальная <br>Система управления
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Корпус парового котла
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="footer_content_title_item">
+									<h3 class="upper">Приложения</h3>
+									<ul>
+										<li>
+											<a href="spheres.html">
+												Автомобильная промышленность
+											</a>
+										</li>
+										<li>
+											<a href="spheres.html">
+												Пищевая промышленность
+											</a>
+										</li>
+										<li>
+											<a href="spheres.html">
+												Винодельни и пивоварни
+											</a>
+										</li>
+										<li>
+											<a href="spheres.html">
+												Коммерческая Уборка
+											</a>
+										</li>
+										<li>
+											<a href="spheres.html">
+												Уничтожение сорняков
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							
+							<div class="footer_content_title_contacts">
+								<h3 class="upper">Контакты</h3>
+								<a href="tel:+79160367799">
+									<img src="img/header_content_phone.svg" alt="">
+									<p>+7 (916) <strong>036 77 99</strong></p>
+								</a>
+								<a href="mailto:info@optima.ru">
+									<img src="img/header_content_mail.svg" alt="">
+									<p>info@optima.ru</p>
+								</a>
+								<div class="footer_content_title_contacts_clock">
+									<img src="img/header_content_clock.svg" alt="">
+									<p>Пн-пт: <b>с 9:00 до 18:00</b></p>
+								</div>
+								<div class="footer_content_title_contacts_messengers">
+									<a href="#" class="footer_content_title_contacts_messengers_item">
+										<img src="img/footer_tg.svg" alt="">
+									</a>
+									<a href="#" class="footer_content_title_contacts_messengers_item">
+										<img src="img/footer_ins.svg" alt="">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="footer_content_policy">
+							<div class="footer_content_policy_leftpart">
+								<a href="policy.html">
+									Политика конфиденциальности 
+								</a>
+								<a class="footer_content_policy_leftpart_kima" href="https://kimapro.ru/">
+									<img src="img/kima.svg" alt="">
+									<p>Разработка и поддержка <br>KIMAPRO</p>
+								</a>
+							</div>
+							
+							<p>© 2026 Optima. Все права защищены</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div class="modal-overlay" id="modalOverlay">
+			<div class="modal_order" id="modal_order">
+				<button class="close_btn_modal" id="closeBtn_modal" aria-label="Закрыть">
+					<svg width="40" height="39" viewBox="0 0 40 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<line x1="1.06058" y1="0.353554" x2="39.0606" y2="38.3536" stroke="#252525"/>
+						<line y1="-0.5" x2="53.7401" y2="-0.5" transform="matrix(-0.707107 0.707107 0.707107 0.707107 38.707 0.707108)" stroke="#252525"/>
+					</svg>
+				</button>
+				<div class="modal_content">
+					<div class="modal_content_container">
+						<div class="modal_content_container_header">
+							<h2>Заказать звонок</h2>
+							<div class="modal_content_container_header_line">
+								
+							</div>
+							<p>Менеджер перезвонит в течение 15 минут в рабочее время</p>
+						</div>
+						<form action="#" class="modal_order_form">
+							<div class="modal_order_form_item">
+								<p class="upper">Телефон</p>
+								<input type="tel" name="" id="" placeholder="+7 (_) _-- -- ---" data-tel-input required="required">
+							</div>
+							<label class="custom_checkbox custom_checkbox_modal">
+								<input type="checkbox" required>
+								<span class="checkmark"></span>
+								<div class="checkbox_title">
+									<p>Нажимая на кнопку, вы соглашаетесь с </p>
+									<a href="policy.html"> Политикой обработки персональных данных</a>
+								</div>
+							</label>
+							<button type="submit" class="modal_order_form_btn">
+								<p>Отправить заявку</p>
+								<img src="img/firstsec_mainpage_arrow.svg" alt="">
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<script src="js/jquery-3.6.2.min.js"></script>
+	 	<script src="js/slick.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+		<script src="js/main.js"></script>
+
+	</div>
+</body>
+</html>
+
